@@ -1,0 +1,319 @@
+body{
+    background-color: #D6C8BB;
+}
+
+.mapdiv{
+    position: absolute;
+    height: 30%;
+    top: 28%;
+    margin-top: 44px;
+    width: 100%;
+    margin: auto;
+}
+
+.row{
+    position: relative;
+}
+
+.soundBoard{
+    width: 71%;
+    position: fixed;
+    top: 74%;
+}
+
+.btn-client1{
+   width: 405px;;
+}
+
+.btn-client1:hover{
+    opacity:0.6;
+}
+
+
+input:focus {
+    outline: none ;
+    
+}
+
+.btn-client2{
+    width: 405px;;
+}
+
+.btn-client2:hover{
+    opacity:0.6;
+}
+
+.btn-call{
+    width: 95px;
+}
+
+.btn-call:hover{
+    opacity:0.6;
+}
+
+.btn-found{
+    width: 128px;
+}
+
+.btn-found:hover{
+    opacity:0.6;
+}
+
+.btn-sound{
+    width: 128px;
+    margin-top: 5%;
+
+}
+
+.btn-sound:hover{
+    opacity:0.5;
+}
+
+.btn-sound1:hover{
+    opacity:0.5;
+}
+
+.btn-sound2:hover{
+    opacity:0.5;
+}
+
+.btn-sound3:hover{
+    opacity:0.5;
+}
+
+.btn-sound4:hover{
+    opacity:0.5;
+}
+
+.btn-sound5:hover{
+    opacity:0.5;
+}
+
+.btn-sound6:hover{
+    opacity:0.5;
+}
+
+.btn-sound7:hover{
+    opacity:0.5;
+}
+
+.btn-sound1{
+    width: 128px;
+    margin-top: 5%;
+}
+
+.btn-sound2{
+    width: 128px;
+    margin-top: 5%;
+}
+
+.btn-sound3{
+    width: 128px;
+    margin-top: 5%;
+}
+
+.btn-sound4{
+    width: 128px;
+    margin-top: 5%;
+}
+
+.btn-sound5{
+    width: 128px;
+    margin-top: 5%;
+}
+
+.btn-sound6{
+    width: 128px;
+    margin-top: 5%;
+}
+
+.btn-sound7{
+    width: 128px;
+    margin-top: 5%;
+}
+
+/* The side navigation menu */
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 29%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.mapdiv path {
+    fill: #FEF3C2;
+    stroke: #F8C77F;
+    transition: fill 0.3s;
+}
+
+.entry1{
+    fill :#FEF3C2;
+}
+
+.narnia1{
+    fill :#FEF3C2;
+}
+
+
+.hallway1{
+    fill: #FEF3C2;
+}
+
+.kitchen1{
+    fill: #FEF3C2;
+}
+
+.laundryCloset1{
+    fill: #FEF3C2;
+}
+
+.gearCloset1{
+    fill: #FEF3C2;
+}
+
+.balcony1{
+    fill: #FEF3C2;
+}
+
+.bathroom1{
+    fill: #FEF3C2;
+}
+
+.familyBedroom1{
+    fill: #FEF3C2;
+}
+
+.backBedroom1{
+    fill: #FEF3C2;
+}
+
+.mainRoom1{
+    fill: #FEF3C2;
+}
+
+.local-video {
+    border-style: dashed;
+    color: #AE967B;
+    position: fixed;
+    left: 72%;
+    top: 1%;
+    margin-bottom: 10%;
+    width: 27%;
+    height: 25%;
+}
+
+.remote-video {
+    border-style: dashed;
+    color: #AE967B;
+    position: fixed;
+    left: 0.79%;
+    top: 1%;
+    width:70%;
+    height:72%
+}
+
+.mapdiv rect {
+    fill: #FEF3C2;
+    stroke: #F8C77F;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:#80CECC;
+}
+
+.container{
+    overflow: hidden;
+    position: fixed;
+    bottom: 140px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.instructions{
+    color: #AE967B;
+    text-align: center;
+    font-family: "Concert One";
+    margin-top: 42%;
+}
+
+.instructions1{
+    position: absolute;
+    color: #AE967B;
+    font-family: 'New Tegomin', serif;
+    margin-top: -4%;
+    margin-left: 25%;
+}
+
+
+.heading{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -1px;
+    color: #AE967B;
+    font-family: "Concert One";
+    text-align: center;
+}
+
+.heading2 {
+    position: absolute;
+    color: #AE967B;
+    font-family: 'New Tegomin', serif;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.instructions2{
+    position: absolute;
+    color: #AE967B;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    margin-top: 50%;
+}
+
+.instructions3{
+    position: absolute;
+    color: #AE967B;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    margin-top: 50%;
+}
+
+.plushies {
+    margin-top: 67%;
+    margin-left: 10%;
+    margin-right: -27%;
+}
+
+.plushies img{
+    border: 0px;
+    border-style: dashed;
+    border-radius: 25px;
+}
+
+.wolf:hover{
+    opacity:0.6;
+}
+
+.fox:hover{
+    opacity:0.6;
+}
+
+.beaver:hover{
+    opacity:0.6;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 71%;
+    text-align: center;
+}
